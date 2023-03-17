@@ -94,7 +94,7 @@ Ahora si debe ejecutarse correctamente mostrando la siguiente informacion, donde
 
 
 
-  ACA VOY!!!! MIN 10:20
+  ACA VOY!!!! MIN 15:00
   
   
 
