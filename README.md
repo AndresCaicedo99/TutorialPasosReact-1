@@ -1,11 +1,74 @@
 # Como crear React App con Vite
 
+Veremos el modo mas recomendado para crear la React App con Vite, que es la siguiente generacion de herramientas para el frontend 
+
+1.) Para empezar a trabajar debemos seleccionar la carpeta utilizando la terminal PowerShell
+
+En esta imagen veremos que inicialmente al abrir PowerShell vamos tener por defecto la siguiente ruta, que seria; "nombre de nuestro dispositivo"/"system32" que es la carpeta en la cual se encuentra, en este caso. 
+
+![image](https://user-images.githubusercontent.com/124592267/225476796-89007bcb-dce9-4c75-bfab-a99fcf892b8f.png)
+
+Para poder seleccionar la carpeta donde deseamos trabajar debemos:
+  -Copiar la direccion url de la carpeta con la que deseamos trabajar de esta manera
+  
+  ![image](https://user-images.githubusercontent.com/124592267/225478447-372863dd-434b-49f8-b257-0eb4dd6f56a1.png)
+
+  Ahora debemos escribir el comando "cd" junto con la url de la carpeta que copias anteriormente. El comando quedaria de la   siguiente manera.
+  
+```
+cd C:\Users\andre\OneDrive\Escritorio\ReactPrueba
+```
+  Damos enter para ejecutar el comando y debe salirnos la siguiente informacion
+  
+  ![image](https://user-images.githubusercontent.com/124592267/225479281-f8aa41bd-e64a-4726-9170-7eb73cb89976.png)
+
+ Como vemos nos ecnotramos dentro de la carpeta en la cual vamos a trabajar.
+ 
+ 2.) Ya estando en la carpeta del proyecto ejecutamos el siguiente comando
+ 
+ ```
+npm create vite@latest
+```
+![image](https://user-images.githubusercontent.com/124592267/227055701-1cba622c-70c0-4301-a6ae-0d82d70c9110.png)
+
+nos pedira que le insertemos la "y" para continuar
+
+![image](https://user-images.githubusercontent.com/124592267/227056189-77a81014-7008-497a-9ee4-16cdf359d4e7.png)
+
+Seguidamente nos prguntara que nombre le deseamos colocar, en este caso dejare que trae por defecto que es vite-project, pero se le puede colocar cualquier nombre sin espacios, ni numero, ni caracteres especiales.
+
+Nos va a preguntar cual va a ser el framework que vamos a utilizar. (ojo: React no es un framework, pero aca si lo toma como uno). Seleccionamos React y seguidamente nos va a preguntar que variante vamos a utilizar, le indicamos JavaScript 
+
+![image](https://user-images.githubusercontent.com/124592267/227057165-c35fcb9d-5662-4748-a9f0-2ea0e8347edf.png)
+
+![image](https://user-images.githubusercontent.com/124592267/227057240-0448d26a-87c7-4de5-8100-b75aedf1793e.png)
+
+Ahora nos la terminal nos da 3 opciones de comando -1. Entrar a la carpeta -2. ejecutar el install -3. Y puedes ejecutar para ver el proyect. Sugiendo el orden los comandos que podemos utilizar son los siguientes.
+
+  
+```
+cd vite-project
+```
+  
+```
+npm install
+```
+  
+```
+npm run dev
+```
+
+![image](https://user-images.githubusercontent.com/124592267/227058214-755f98ba-c332-4fec-b349-2e113d935355.png)
+
+37:57
+
 
 1.) Creamos una nueva carpeta que va a contener nuestro proyecto
 
 2.) Para empezar a trabajar debemos seleccionar la carpeta utilizando la terminal PowerShell
 
 En esta imagen veremos que inicialmente al abrir PowerShell vamos tener por defecto la siguiente ruta, que seria; "nombre de nuestro dispositivo"/"system32" que es la carpeta en la cual se encuentra, en este caso. 
+
 ![image](https://user-images.githubusercontent.com/124592267/225476796-89007bcb-dce9-4c75-bfab-a99fcf892b8f.png)
 
 Para poder seleccionar la carpeta donde deseamos trabajar debemos:
